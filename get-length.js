@@ -9,7 +9,7 @@
  */
 
 // Your code :
-
+const getLength = lacharria => lacharria.length
 //* Begin of tests
 const assert = require('assert')
 

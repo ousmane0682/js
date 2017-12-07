@@ -13,6 +13,10 @@
 //* Begin of tests
 const assert = require('assert')
 
+const getLast = lacharria => lacharria[lacharria.length - 1]
+
+console.log(getLast([ 'lacharia' ]))
+
 assert.strictEqual(getLast([ 2, 42 ]), 42)
 assert.strictEqual(getLast([ 'pouet', 4, true ]), true)
 assert.strictEqual(getLast([ getLast ]), getLast)

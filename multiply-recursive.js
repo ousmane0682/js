@@ -11,7 +11,24 @@
  */
 
 // Your code :
+const multiply = (num1, num2) {
+  const résultat = num1 * num2
 
+  return résultat
+}
+console.log(multiply(34, 78))
+console.log(multiply(120, 0))
+console.log(multiply(0, -230))
+console.log(multiply(0, 0))
+console.log(multiply(124, -22))
+console.log(multiply(-22, 123))
+console.log(multiply(-22, -123))
+console.log(multiply.length)
+console.log(multiply.toString().includes('math.imul'))
+console.log(multiply.toString().includes('while'))
+console.log(multiply.toString().includes('for'))
+console.log(multiply.toString().includes('*'))
+console.log(multiply.toString().includes('/'))
 //* Begin of tests
 const assert = require('assert')
 
